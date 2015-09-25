@@ -52,7 +52,7 @@ public class Arithmetic{
         System.out.println(nEnvelopes+ " box of Envelopes was purchased at " + envelopeCost$);
         System.out.println(nGlasses+ " drinking glasses were purchased at "+glassCost$+" per glass");
         System.out.printf("The total cost for the Socks before tax is "+totalSockCost$+ " and the tax is %.2f %n", sockTax$);
-        //add '%n' so that it creates a new line
+        //add '%n' so that it creates a new line, %.2 so it only has 2 places after decimal
         System.out.printf("The total cost for the Envelopes before tax is "+totalEnvelopeCost$+ " and the tax is %.2f %n", envelopeTax$);
         System.out.printf("The total cost for the Glasses before tax is "+totalGlassCost$+ " and the tax is %.2f %n", glassesTax$);
         System.out.printf("The total purchase cost before tax comes to %.2f %n", preTaxTotal$);
