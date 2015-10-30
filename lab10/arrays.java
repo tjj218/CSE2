@@ -13,7 +13,7 @@
                     //create an instance that will take input from STDIN
                         Scanner myScanner = new Scanner ( System.in );
                     //ask how many values will be in the array and create variable
-                        System.out.println("How many values would you like to be stored in the array?");
+                        System.out.print("How many values would you like to be stored in the array? ");
                         int length = myScanner.nextInt();
                     //create the array using length
                         int[] array = new int [length];
@@ -23,9 +23,10 @@
                                 array[n]= (int)(Math.random()*100.00);}
         
                         //loop to print
+                        System.out.print("The numbers are: ");
                             for(int i=0;i<length;i++){
-                                System.out.println("The numbers are " + array[i]);}
-            
+                                System.out.print(array[i]+ " ");}
+                        System.out.println("");
         
                     //create variables
                         int sum = 0;
@@ -41,8 +42,9 @@
                         //loop to print values greater than or equal to average
                             for(int n = 0;n<length;n++){
                                 if(array[n]>=avg){
-                                 System.out.println(array[n]);}
+                                 System.out.print(array[n]+ " ");}
         }
+        System.out.println("");
         
     }
 }
